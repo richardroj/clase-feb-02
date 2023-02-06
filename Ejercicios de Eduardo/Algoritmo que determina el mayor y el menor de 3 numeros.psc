@@ -1,5 +1,6 @@
 Algoritmo Numero_mayor_y_menor
-	Escribir "Algoritmo que determina cual es el mayor de 3 numeros"
+	Escribir "Algoritmo que determina cual es el mayor y el menor de 3 numeros"
+	Escribir "Por favor no ingrese numeros iguales"
 	Escribir 'ingrese el primer numero :'
 	Leer a
 	Escribir 'ingrese el segundo numer :'
