@@ -1,0 +1,14 @@
+lgoritmo Tarea_numero_cuatro
+	Definir x, horas Como Entero
+	Definir total Como Real 
+	total <- 0
+	Para x <- 1 Hasta 3 Con Paso 1 Hacer
+		Escribir "Ingresa las horas trabajadas"
+		Leer horas
+		Escribir "Trabajador ", x
+		Escribir "Tu sueldo es: ",horas * 30000
+		total <- total + (horas*30000)
+	FinPara
+	Escribir "La empresa pago una nomina de Bs.", total
+	
+FinAlgoritmo

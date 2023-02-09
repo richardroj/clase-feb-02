@@ -1,0 +1,16 @@
+lgoritmo 
+	Definir A, B Como Entero
+	Escribir "Ingrese 2 numeros"
+	Leer A,B
+	Si A== B Entonces
+		Escribir "Los numeros son iguales"
+	SiNo 
+		si A > B Entonces
+			Escribir "El numero ", A , " es mayor"
+		SiNo 
+			Escribir "El numero ", B , " es mayor "
+			
+		FinSi
+	FinSi
+	
+FinAlgoritmo

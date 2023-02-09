@@ -1,0 +1,26 @@
+Algoritmo 
+	Definir A, B, C Como Entero
+	Escribir "Digite el valor de A: "
+	Leer A
+	Escribir "Digite el valor de B: "
+	Leer B
+	Escribir "Digite el valor de C: "
+	Leer C
+	Si A = B O A = C O C = B Entonces
+		Escribir "Se han ingresado valores iguales"
+	SiNo
+		Si A > B Y A > C Entonces
+			Escribir "El valor mayor es: ", A
+		SiNo
+			Si B > A Y B > C Entonces
+				Escribir "El valor mayor es: ", B
+			SiNo
+				Si C > A Y C > B Entonces
+					Escribir "El valor mayor es: ", C
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
+
+
