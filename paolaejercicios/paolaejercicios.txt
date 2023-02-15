@@ -1,0 +1,18 @@
+Algoritmo Tres_valores_en_tres_variables
+	definir a, b, c Como Entero
+	escribir ingresa tres numeros diferentes
+	leer a, b, c
+	si a<b Entonces
+		si a<c entonces 
+			escribir "el numero a, es menor de los tres"
+		sino 
+			Escribir "el numero c, es menor de los tres"
+		FinSi
+	sino 
+		si b<c Entonces
+			Escribir "el numero b, es menor de los tres"
+		SiNo
+			escribir "el numero c, es menor de los tres"
+		FinSi
+	FinSi
+FinAlgoritmo
