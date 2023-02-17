@@ -1,0 +1,29 @@
+Algoritmo dos_numeros
+	
+	Escribir  "dos numero y ordena"
+	Definir a, b Como Entero
+	
+	Escribir "ingrese el valor de a"
+	leer a
+	
+	Escribir "ingrese el valor de b"
+	leer b 
+	
+	si a = b Entonces
+		
+		Escribir "los valores que ingreso son iguales"
+		
+	SiNo
+		
+		si a > b Entonces
+			Escribir "el valor a es mayor," a
+			
+		sino 
+			
+			Escribir "el valor b es mayor," b
+		FinSi
+		
+	FinSi
+	
+	
+FinAlgoritmo
