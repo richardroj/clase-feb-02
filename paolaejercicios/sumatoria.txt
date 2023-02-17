@@ -1,9 +1,0 @@
-Algoritmo sumatoria_numeros_enteros
-	Definir suma, I Como entero 
-	suma = 0
-	para suma i = 1 Hasta 10 Con Paso 1 Hacer
-		suma = suma + I
-	FinPara
-	Escribir "la suma de los numeros entre 1 y 10 es:", suma
-	
-FinAlgoritmo
