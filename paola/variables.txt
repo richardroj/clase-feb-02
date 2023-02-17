@@ -1,0 +1,24 @@
+Algoritmo tres_valores
+	Definir a,b,c Como Entero
+	Escribir 'ingrese valor de variables a'
+	Leer a
+	Escribir 'ingrese valor de variable b'
+	Leer b
+	Escribir 'ingrese valor de variable c'
+	Leer c
+	Si a=b O a=c O c=b Entonces
+		Escribir 'los valores ingresados son iguales'
+	SiNo
+		Si a>b Y a>c Entonces
+			Escribir 'el mayor valor es:',a
+		SiNo
+			Si b>a Y b>c Entonces
+				Escribir ' el mayor valor es:',b
+			SiNo
+				Si c>a Y c>b Entonces
+					Escribir 'el mayor valor es;',c
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
